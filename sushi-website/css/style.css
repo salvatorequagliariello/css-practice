@@ -5,10 +5,10 @@
 @import url("sections/header.css");
 @import url("sections/hero.css");
 @import url("sections/about.css"); 
-@import url("sections/popular.css");
-@import url("sections/trending.css");
-@import url("sections/subscribe.css");
-@import url("sections/footer.css");
+@import url("sections/popular.css"); 
+@import url("sections/trending.css"); 
+@import url("sections/subscribe.css"); 
+@import url("sections/footer.css"); 
 
 /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */
 /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */ /* RESET */
@@ -29,18 +29,13 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
+
 ol, ul {
 	list-style: none;
 }

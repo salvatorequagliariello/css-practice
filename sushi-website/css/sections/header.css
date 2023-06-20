@@ -8,7 +8,7 @@
     flex: 1;
     display: flex;
     position: relative;
-    padding: 20px;
+    padding: 22px;
 }
 
 .header__logo-overlay {
@@ -33,7 +33,7 @@
     display: flex;
     font-family: var(--plus-jakarta-sans);
     text-transform: uppercase;
-    flex: 1.235;
+    flex: 1.245;
   
     padding: 20px;
     justify-content: flex-end;
