@@ -1,0 +1,110 @@
+
+.about-us {
+    min-height: 720px;
+    display: flex;
+    overflow: hidden;
+}
+
+.about-us__image {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.about-us__image-sushi3 {
+    background-image: url("/assets/about_bg1.png");
+    background-color: white;
+    display: flex;
+    flex: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    align-items: center;
+    padding: 32px 64px;
+    border-bottom: 8px solid var(--color-creamson);
+}
+
+.about-us__image-sushi2 {
+    background-image: url("/assets/about_bg2.png");
+    background-color: white;
+    display: flex;
+    flex: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    align-items: center;
+    padding: 32px 64px;
+}
+
+.about-us__image-sushi3 img {
+    width: 225px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.about-us__image-sushi2 img {
+    width: 240px;
+    height: 160px;
+    object-fit: contain;
+}
+
+.about-us__button {
+    position: absolute;
+    right: 0;
+    padding: 12px 32px;
+    outline: none;
+    border: none;
+    font-family: var(--plus-jakarta-sans);
+    background-color: var(--secondary-color);
+    color: var(--color-white);
+    min-height: 64px;
+    gap: 30px;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 500;
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+    cursor: pointer;
+}
+
+.about-us__button img {
+    margin-left: 32px;
+    object-fit: contain;
+    width: 12px;
+}
+
+.about-us__content {
+    padding: 64px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sushi__subtitle {
+    font-family: var(--plus-jakarta-sans);
+    font-size: 18px;
+    color: var(--primary-color);
+    opacity: 0.8;
+    letter-spacing: -0.01em;
+}
+
+.sushi__title {
+    color: var(--secondary-color);
+    font-family: var(--playfair-display);
+    font-size: 64px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.sushi__description {
+    font-weight: 400;
+    opacity: 0.8;
+    color: var(--black-200);
+    line-height: 36px;
+    font-size: 18px;
+    font-family: var(--plus-jakarta-sans);
+    margin-top: 16px;
+}
