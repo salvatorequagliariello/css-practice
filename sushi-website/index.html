@@ -16,11 +16,11 @@
   <header>
     <nav class="header__nav">
       <div class="header__logo">
-        <h4>Sushiman</h4>
+        <h4 data-aos="fade-down">Sushiman</h4>
         <div class="header__logo-overlay"></div>
       </div>
 
-      <ul class="header__menu">
+      <ul class="header__menu" data-aos="fade-down">
         <li><a href="#menu">Menu</a></li>
         <li><a href="#food">Food</a></li>
         <li><a href="#services">Services</a></li>
@@ -28,7 +28,7 @@
         <li><img src="./assets/search.svg" alt="search"></li>
       </ul>
 
-      <ul class="header__menu-mobile">
+      <ul class="header__menu-mobile" data-aos="fade-down">
         <li><img src="./assets/menu.svg" alt="mobile menu"></li>
       </ul>
     </nav>
@@ -38,8 +38,8 @@
   <section class="hero">
 
     <div class="hero-image">
-      <img src="./assets/sushi-1.png" alt="sushi hand picked">
-      <h2>
+      <img data-aos="fade-up" src="./assets/sushi-1.png" alt="sushi hand picked">
+      <h2 data-aos="fade-up">
         日<br>
         本<br>
         食<br>
@@ -48,7 +48,7 @@
     </div>
 
     <div class="hero-content">
-      <div class="hero-content-info">
+      <div data-aos="fade-left" class="hero-content-info">
         <h1>Feel the taste of Japanese food</h1>
         <p>Feel the taste of the most popular Japanese food from anywhere and anytime.</p>
         <div class="hero-content__buttons">
@@ -57,7 +57,7 @@
         </div>
       </div>
 
-        <div class="hero-content__testimonial">
+        <div data-aos="fade-up" class="hero-content__testimonial">
 
           <div class="hero-content__customer flex-center">
             <h4>24<span>k+</span></h4>
@@ -76,12 +76,12 @@
 
   <section class="about-us" id="about-us">
     <div class="about-us__image">
-      <div class="about-us__image-sushi3"><img src="./assets/sushi-3.png" alt="sushi"></div>
+      <div  class="about-us__image-sushi3"><img data-aos="fade-right" src="./assets/sushi-3.png" alt="sushi"></div>
       <button class="about-us__button">Learn More <img src="/assets/arrow-up-right.svg" alt=""></button>
-      <div class="about-us__image-sushi2"><img src="./assets/sushi-2.png" alt="sushi"></div>
+      <div  class="about-us__image-sushi2"><img data-aos="fade-right" src="./assets/sushi-2.png" alt="sushi"></div>
     </div>
 
-    <div class="about-us__content">
+    <div data-aos="fade-left" class="about-us__content">
       <p class="sushi__subtitle">About Us / 私たちに関しては</p>
       <h3 class="sushi__title">Our mission is to bring true Japanese flavours to you.</h3>
       <p class="sushi__description">We will contine to provide the experience of Omotenashi, the Japanese mindset of hospitality, with our shopping and dining for our customers.</p>
@@ -89,9 +89,9 @@
   </section>
 
   <section class="popular-foods">
-    <h2 class="popular-foods__title">Popular Food / 人気</h2>
+    <h2 data-aos="flip-up" class="popular-foods__title">Popular Food / 人気</h2>
 
-    <div class="popular-foods__filters sushi__hide-scrollbar">
+    <div data-aos="fade-up" class="popular-foods__filters sushi__hide-scrollbar">
       <button class="popular-foods__filter-btn active">All</button>
       <button class="popular-foods__filter-btn"><img src="./assets/sushi-9.png" alt="sushi">Sushi</button>
       <button class="popular-foods__filter-btn"><img src="./assets/sushi-8.png" alt="sushi">Ramen</button>
@@ -100,7 +100,7 @@
       <button class="popular-foods__filter-btn">All</button>
     </div>
 
-    <div class="popular-foods__catalog">
+    <div data-aos="fade-up" class="popular-foods__catalog">
 
       <article class="popular-foods__card">
         <img class="popular-foods__card-image" src="/assets/sushi-12.png" alt="sushi 12">
@@ -117,12 +117,12 @@
       <article class="popular-foods__card active-card">
         <img class="popular-foods__card-image" src="/assets/sushi-11.png" alt="sushi 11">
         <h4 class="popular-foods__card-title">Original Sushi</h4>
-        <div class="popular-foods__card-details">
-          <div class="popular-foods__card-rating">
+        <div class="popular-foods__card-details-active">
+          <div class="popular-foods__card-rating-active">
             <img src="/assets/star.svg" alt="star">
             <p>5.0</p>
           </div>
-          <p class="popular-foods__card-price">$19.00</p>
+          <p class="popular-foods__card-price-active">$19.00</p>
         </div>
       </article>
 
@@ -140,7 +140,7 @@
       </article>
     </div>
 
-    <button class="popular-foods__button">Explore Food<img src="./assets/arrow-right.svg" alt="arrow"></button>
+    <button data-aos="fade-up" class="popular-foods__button">Explore Food<img src="./assets/arrow-right.svg" alt="arrow"></button>
   </section>
 
   <script src="./js/script.js" type="module"></script>
