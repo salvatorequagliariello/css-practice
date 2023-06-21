@@ -1,0 +1,151 @@
+.trending {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.trending-sushi {
+    flex: 1;
+    display: flex;
+    width: 100%;
+    min-height: 640px;
+}
+
+.trending__content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    place-content: center;
+    padding: 32px 64px;
+}
+
+.trending__list {
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+    font-family: var( --plus-jakarta-sans);
+}
+
+.trending__list li {
+    flex: 1;
+    min-width: 210px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    text-align: center;
+}
+
+.trending__icon {
+    align-self: center;
+    justify-self: center;
+    width: 24px;
+    height: 24px;
+    background-color: var(--primary-color);
+    border-radius: 100%;
+}
+
+.trending__image {
+    flex: 1;
+    background-color: var(--color-white);
+    background-image: url("/assets/japanese_sushi.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;
+    padding: 32px 64px;
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+
+.trending__image img {
+    width: 254px;
+    height: 260px;
+    object-fit: contain;
+}
+
+.trending__arrow {
+    position: absolute;
+    z-index: 1;
+}
+
+.trending__arrow img {
+    object-fit: contain;
+}
+
+.trending__arrow-left {
+    left: -2.5px;
+}
+
+.trending__arrow-left img {
+    width: auto;
+    height: 100%;
+}
+
+.trending__arrow-bottom {
+    bottom: -6.5px;
+}
+
+.trending__arrow-bottom img{
+    width: auto;
+    height: 100%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.trending__arrow-top {
+    top: -11.5px;
+}
+
+.trending__arrow-top img{
+    width: auto;
+    height: 100%;
+}
+
+.trending__arrow-right {
+    right: -3px;
+}
+
+.trending__arrow-right img{
+    width: auto;
+    height: 100%;
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+
+.trending-drink {
+    flex: 1;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    min-height: 640px;
+}
+
+.trending__discover {
+    position: absolute;
+    background-color: var(--black-200);
+    color: white;
+    width: 160px;
+    height: 160px;
+    z-index: 2;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 43.6%;
+    bottom: 43.6%;
+}
+
+.trending__discover p {
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var( --plus-jakarta-sans);
+}
