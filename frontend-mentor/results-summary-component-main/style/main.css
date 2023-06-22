@@ -33,7 +33,7 @@
 
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
-    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) 100%);
     color: var(--neutral-color-white);
 }
 
@@ -103,7 +103,6 @@
     width: 95%;
     font-weight: 700;
     border-radius: 10px;
-    background-color: aqua;
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -165,4 +164,9 @@ button {
     width: 104%;
     padding: 15px 0;
     border-radius: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) 100%);
 }
