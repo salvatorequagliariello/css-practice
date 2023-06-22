@@ -14,7 +14,13 @@ body {
 }
 
 .card {
-    margin: 30px auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -172.5px;
+    margin-top: -300px;
+
+
     width: 345px;
     height: 600px;
     display: flex;

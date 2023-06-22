@@ -2,6 +2,12 @@
 @media screen and (min-width: 580px) {
 
     .card {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -285px;
+        margin-top: -200px;
+
         width: 560px;
         height: 400px;
         display: flex;
